@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Workshop Styled Components
 
-## Getting Started
+#### Proposta
 
-First, run the development server:
+- Ver conceitos básicos e trocar ideia sobre como usar o framework
+- Quem nunca viu vai poder aprender pelo menos o básico
+- Quem já conhece e sabe usar, pode relembrar e também contribuir (fiquem a vontade)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+#### Como vai funcionar?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Vamos desenvolver um projeto
+- Eu vou explicar o conceito básico
+- Quem quiser pode replicar
+- Colegas contribuirem com o conceito (aditivos, correções)
+- Colegas tirarem dúvidas
+- Ideia do nivelamento
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+#### Recomendações
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Fazer o curso na Alura (mais detalhado e específico)
+- Acompanhar codando
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### O que vamos ver
 
-## Learn More
+- [ ] Tópicos básicos
+- [ ] GlobalStyle
+- [ ] Fonts
+- [ ] Reset CSS
+- [ ] Uso de variáveis
+- [ ] Uso de props
+- [ ] Herança
+- [ ] Media queries
 
-To learn more about Next.js, take a look at the following resources:
+### Step-by-step
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [ ] Clonar o projeto e instalar dependências
+- [ ] Alterar componente de título
+- [ ] Adicionar Global CSS
+- [ ] Adicionar Fontes
+- [ ] Criar variáveis
+- [ ] Refatorar Cabeçalho
+- [ ] StyledHeader & Logo
+- [ ] BtnCabeçalho
+- [ ] Refatorar Container & Content
+- [ ] Remover estilo inline
+- [ ] Adicionar IconMargin
+- [ ] Terminar de refatorar componente Conta
+- [ ] Adicionar media queries aos componentes
