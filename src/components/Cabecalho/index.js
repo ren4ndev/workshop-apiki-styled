@@ -1,18 +1,30 @@
 import React from 'react';
+import {
+  StyledHeader,
+  Logo,
+  BtnHeader,
+} from './style';
 
 const Cabecalho = () => {
   return (
-    <div className="cabecalho">
-      <img className="imagem-logo" src="images/bank_logo.svg" alt="Logo Smart Bank" />
+    <StyledHeader>
+      <Logo className="imagem-logo" src="images/bank_logo.svg" alt="Logo Smart Bank" />
       <div>
-        <a className="btn-secundario" href="https://google.com">
+        <BtnHeader
+          className="btn-secundario"
+          href="https://google.com"
+          primary
+        >
           Ajuda
-        </a>
-        <a className="btn-primario" href="https://google.com">
+        </BtnHeader>
+        <BtnHeader
+          className="btn-primario"
+          href="https://google.com"
+        >
           Sair
-        </a>
+        </BtnHeader>
       </div>
-    </div>
+    </StyledHeader>
   );
 };
 

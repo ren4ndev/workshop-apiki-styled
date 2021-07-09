@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Icone, Box, Button, Detalhe, Saldo } from '../UI/index';
+import { IconeMargin } from './style';
 
 const Conta = () => {
   const [toggleState, untoggle] = useState(true);
@@ -8,29 +10,27 @@ const Conta = () => {
   };
 
   return (
-    <div className="box">
+    <Box>
       <h2>Conta</h2>
       <div style={{ fontSize: "26px", padding: "20px 0" }}>
         Saldo disponível{" "}
         <span>
-          <img className="imagem-icone" src="images/dinheiro.svg" alt="Ícone Saldo" />
+          <Icone src="images/dinheiro.svg" alt="Ícone Saldo" />
         </span>
         {toggleState ? (
-          <div className="saldo">
-            <span className="detalhe">R$</span> 0,00{" "}
-          </div>
+          <Saldo>
+            <Detalhe>R$</Detalhe> 0,00{" "}
+          </Saldo>
         ) : null}
       </div>
 
-      <button className="btn" onClick={toggleHandler}>
-        <img
-          style={{ marginTop: "2px" }}
-          className="imagem-icone"
+      <Button onClick={toggleHandler}>
+        <IconeMargin
           src={toggleState ? 'images/privado.svg' : 'images/olho.svg'}
           alt="Privacidade do Saldo"
         />
-      </button>
-    </div>
+      </Button>
+    </Box>
   );
 };
 
